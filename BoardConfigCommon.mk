@@ -121,5 +121,3 @@ BOARD_SEPOLICY_UNION += \
     ta_qmi_client.te \
     updatemiscta.te \
     wpa.te
-
-WITH_DEXPREOPT := true
