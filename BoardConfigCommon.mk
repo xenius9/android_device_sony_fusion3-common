@@ -96,6 +96,9 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/
 # Boot animation
 TARGET_BOOTANIMATION_HALF_RES := true
 
+ # External apps on SD
+TARGET_EXTERNAL_APPS := sdcard1
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 
